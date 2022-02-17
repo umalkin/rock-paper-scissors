@@ -1,0 +1,106 @@
+body {
+  background-color: #e1dcdc;
+  font-family: 'Varela Round', sans-serif;
+}
+#main {
+  text-align: center;
+  margin: 0px 10%;
+}
+
+#scoreboard-main {
+  background-color: #ffe4c4;
+  border: 1px solid #f7b769;
+  border-radius: 7px;
+  margin: 0px 25%;
+  padding: 20px;
+}
+
+#scoreboard-main h4{
+  margin-top: -5px;
+}
+
+#scoreboard {
+  margin: 0px 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#sb-visitor,
+#sb-comp {
+  background-color: #f0f8ff;
+  border: 1px solid #b5d2eb;
+  border-radius: 5px;
+  min-width: 80px;
+}
+
+.winner{
+  background-color: #11a311;
+}
+
+#choices{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 12% auto;
+  border-radius: 5px;
+}
+
+.choice{
+  background-color: #ffa07a;
+  border: 1px solid #e9845d;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: large;
+}
+
+#status {
+  background-color: #ffb6c1;
+  border: 1px solid #f790a0;
+  border-radius: 5px;
+  margin: 20px 20%;
+  padding: 20px 0px;
+}
+
+#buttons {
+  margin: 20px 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.choose {
+  display: inline-block;
+  padding: 10px;
+  background-color: #3131f0;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 8px;
+  box-shadow: -5px -2px 2px #5743ca;
+}
+
+.choose:active {
+  background-color: #1c1cbf;
+  transition: 0.5ms;
+}
+
+.disableButtons .choose {
+  opacity: 0.4;
+  pointer-events: none;
+  background-color: #c1b8b8;
+}
+
+#play-again {
+  visibility: hidden;
+  margin-top: 40px;
+}
+
+#play-button {
+  background-color: #90ee90;
+  border: 1px solid #45dd45;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+#play-button:active {
+  background-color: #45dd45;
+}
